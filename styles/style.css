@@ -318,3 +318,63 @@ body{
         bottom: -4rem;
     }
 }
+
+
+@media (max-width: 720px) {
+    .move{
+        top: 0;
+        right: unset;
+        bottom: unset;
+        left: -2rem;
+        scale: 1;
+    }
+    
+    .random{
+        top: 0;
+        right: -2rem;
+        left: unset;
+        scale: 1;
+    }
+    
+    .text{
+        top: unset;
+        bottom: 8rem;
+        left: -2.5rem;
+        font-size: 10px;
+    }
+    
+    .text2{
+        top: unset;
+        font-size: 10px;
+        bottom: 8rem;
+        right: -4rem;
+    }
+
+    .absolute{
+        top: unset;
+        bottom: 8rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .absolute h1{
+        font-size: 3rem;
+    }
+
+    .absolute a{
+        padding: 1rem 1rem;
+    }
+
+    .button-discover{
+        right: unset;
+        padding: 1rem 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 3rem;
+    }
+
+    .attribution{
+        padding: 1rem 0;
+        bottom: -4rem;
+    }
+}
