@@ -76,7 +76,7 @@ function chooseWeb(){
     ]
     const random = Math.floor(Math.random() * items.length);
     setTimeout(()=>{
-        choosee[0].style.background=colors[random]
+        choosee[0].style.background='radial-gradient(circle at 50% 0,'+colors[random]+' 50%,rgba(88, 88, 88, 0.9))'
 
         itemBack.style.background='white'
         itemBack.innerHTML=images[random];
